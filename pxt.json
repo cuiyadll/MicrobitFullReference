@@ -1,0 +1,27 @@
+{
+    "name": "教程3：完整引用",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "makebit": "github:zhuning239/Makebit_M#1b0f3e92c9c1c72539a36bc1303be42b12e025d7",
+        "ps2-controller": "github:zhuning239/PS2#e3848df36c1a235a8245b5f002357b31e7451d1c"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
